@@ -1,0 +1,22 @@
+# Python & Virtual Environments
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large SQLite database files (regenerate anytime via `python3 src/data_generator.py`)
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# IDE configuration
+.vscode/
+.idea/
